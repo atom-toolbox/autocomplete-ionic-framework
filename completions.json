@@ -93,7 +93,9 @@
 		"ion-tabs": {
 			"attributes": ["selectedIndex", "selected-index", "tabbarPlacement", "tabbar-placement", "tabbarIcons", "tabbar-icons", "preloadTabs", "preload-tabs", "change"]
 		},
-		"ion-thumbnail"
+		"ion-thumbnail": {
+
+		},
 		"ion-toggle": {
 			"attributes": ["value", "checked", "disabled", "id"]
 		},
