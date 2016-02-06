@@ -23,22 +23,19 @@
 			"attributes": ["baseline", "center"]
 		},
 		"ion-icon": {
-			"attributes": ["name", "ios", "md", "isActive", "is-active"]
+			"attributes": ["name", "ios", "md", "isActive"]
 		},
 		"icon": {
-			"attributes": ["name", "ios", "md", "isActive", "is-active"]
+			"attributes": ["name", "ios", "md", "isActive"]
 		},
 		"ion-input": {
 			"attributes": ["type", "clearInput", "placeholder"]
 		},
 		"ion-textarea": {
-			"attributes": []
 		},
 		"ion-item": {
-			"attributes": []
 		},
 		"ion-item-sliding": {
-			"attributes": []
 		},
 		"ion-item-options": {
 		},
@@ -67,10 +64,10 @@
 			"attributes": ["scrollX", "scrollY", "zoom", "maxZoom"]
 		},
 		"ion-refresher": {
-			"attributes": ["starting", "refresh", "pulling", "pullingIcon", "pulling-icon", "pullingText", "pulling-text", "refreshingIcon", "refreshing-icon", "refreshingText", "refreshing-text"]
+			"attributes": ["starting", "refresh", "pulling", "pullingIcon", "pullingText", "refreshingIcon", "refreshingText"]
 		},
 		"ion-searchbar": {
-			"attributes": ["cancelButtonText", "cancel-button-text", "hideCancelButton", "hide-cancel-button", "placeholder", "input", "keydown", "keypress", "keyup", "blur", "focus", "cancel", "clear"]
+			"attributes": ["cancelButtonText", "hideCancelButton", "placeholder", "input", "keydown", "keypress", "keyup", "blur", "focus", "cancel", "clear"]
 		},
 		"ion-segment": {
 			"attributes": ["change"]
@@ -79,22 +76,20 @@
 			"attributes": ["value", "select"]
 		},
 		"ion-select": {
-			"attributes": ["cancelText", "cancel-text", "okText", "ok-text", "alertOptions", "alert-options", "multiple", "disabled", "change"]
+			"attributes": ["cancelText", "okText", "alertOptions", "multiple", "disabled", "change"]
 		},
 		"ion-slide": {
-			"attributes": []
 		},
 		"ion-slides": {
-			"attributes": ["autoplay", "loop", "index", "bounce", "pager", "options", "zoom", "zoomDuration", "zoom-duration", "zoomMax", "zoom-max", "change"]
+			"attributes": ["autoplay", "loop", "index", "bounce", "pager", "options", "zoom", "zoomDuration", "zoomMax", "change"]
 		},
 		"ion-tab": {
-			"attributes": ["root", "tabTitle", "tab-title", "tabIcon", "tab-icon", "tabBadge", "tab-badge", "tabBadgeStyle", "tab-badge-style", "select"]
+			"attributes": ["root", "tabTitle", "tabIcon", "tabBadge", "tabBadgeStyle", "select"]
 		},
 		"ion-tabs": {
-			"attributes": ["selectedIndex", "selected-index", "tabbarPlacement", "tabbar-placement", "tabbarIcons", "tabbar-icons", "preloadTabs", "preload-tabs", "change"]
+			"attributes": ["selectedIndex", "tabbarPlacement", "tabbarIcons", "preloadTabs", "change"]
 		},
 		"ion-thumbnail": {
-
 		},
 		"ion-toggle": {
 			"attributes": ["value", "checked", "disabled", "id"]
@@ -107,6 +102,11 @@
 		}
 	},
 	"attributes": {
+		"primary": {},
+		"secondary": {},
+		"danger": {},
+		"light": {},
+		"dark": {},
 		"button": {
 			"global": "true"
 		},
@@ -135,14 +135,7 @@
 		"tabbarIcons": {
 			"attribOption": ["bottom", "left", "right"]
 		},
-		"tabbar-icons": {
-			"attribOption": ["bottom", "left", "right"]
-		},
 		"tabbarPlacement": {
-			"global": "true",
-			"attribOption": ["top", "bottom"]
-		},
-		"tabbar-placement": {
 			"global": "true",
 			"attribOption": ["top", "bottom"]
 		},
